@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+	<title>The Guitar</title>
+	<link rel = "stylesheet"
+	type = "text/css"
+	href = "review.css"/>
+</head>
+<body>
+	<h1>The Guitar</h1>
+
+	<div th:each = "review: ${reviews}">
+		<p th:text = "${review.brand}"></p>
+		<p th:text = "${review.model}"></p>
+		<img th:src="${review.imgUrl}" class="center"/>
+</body>
+</html>

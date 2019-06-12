@@ -1,0 +1,30 @@
+#heading{
+	font-size: 70px;
+	font-variant:small-caps;
+	text-align: center;
+
+
+	
+}
+
+#guitars{
+	font-size: 55px;
+	font-weight: 65 medium;
+	color: black;
+	list-style-type: square;
+	
+}
+#body{
+	height: 600px;
+	background-color: white;
+	background-image: linear-gradient(#ffffcc, white);
+}
+#guitar{
+	align-items: center;
+}
+
+
+
+
+
+

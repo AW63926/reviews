@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+	<title>reviews</title>
+	<link rel = "stylesheet"
+	type = "text/css"
+	href = "reviews.css"/>
+</head>
+<body id="gradient">
+	<h1 id="heading">Guitar Reviews</h1>
+	<div  th:each = "review: ${reviews}">
+		<li>
+		<a id="guitars" th:href="@{/review(id=${review.id})}" th:text="${review.model}"></a>
+		</li>
+	</div>
+</body>
+</html>
