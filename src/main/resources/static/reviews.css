@@ -14,11 +14,13 @@
 	list-style-type: square;
 	
 }
-#body{
-	height: 600px;
-	background-color: white;
-	background-image: linear-gradient(#ffffcc, white);
+h1{
+	height: 200px;
+	background-image: linear-gradient(crimson, white);
+	
 }
+
+
 
 
 

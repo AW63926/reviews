@@ -7,11 +7,14 @@
 	href = "review.css"/>
 </head>
 <body>
-	<h1>The Guitar</h1>
-
-	<div th:each = "review: ${reviews}">
+	<h1 id="heading">The Guitar</h1>
+	<div id="description" th:each = "review: ${reviews}">
 		<p th:text = "${review.brand}"></p>
 		<p th:text = "${review.model}"></p>
+		<p th:text = "${review.year}"></p>
+		<p id="content" th:text = "${review.content}"></p>
 		<img th:src="${review.imgUrl}" class="center"/>
+		<a href="http://localhost:8080/show-reviews">HOME</a>
+	</div>
 </body>
 </html>

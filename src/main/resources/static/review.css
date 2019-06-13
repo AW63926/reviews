@@ -2,5 +2,25 @@
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+
+}
+h1{
+	font-size: 65px;
+	font-family: Comic Sans MS;
+	font-weight: 65 medium;
+
 	
+}
+#description{
+	font-size: 36px;
+	font-family: Arial;
+	font-weight: 65 medium;
+}
+#content{
+	font-size: 18px;
+	font-family: Arial;
+	font-weight: 35 medium;
+}
+a{
+	font-size: 18px;
 }
